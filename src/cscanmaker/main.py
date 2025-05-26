@@ -6,8 +6,8 @@ Main file for testing synthetic data generation and C-scan creation
 
 import numpy as np
 import matplotlib.pyplot as plt
-from generatemeasuredata import SyntheticDataGenerator, PogoDataReader
-from cscanmaker import CScanGenerator
+from cscanmaker.generate_measure_data import SyntheticDataGenerator, PogoDataReader
+from cscanmaker.measure_data_to_c_scan import CScanGenerator
 
 
 def create_test_data():

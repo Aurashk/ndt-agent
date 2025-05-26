@@ -6,10 +6,9 @@ C-scan generation from ultrasonic measurement data
 
 import numpy as np
 import matplotlib.pyplot as plt
-from matplotlib.colors import LinearSegmentedColormap
 from scipy.interpolate import griddata
 from typing import Tuple, Optional
-from generatemeasuredata import PogoData, PogoDataReader
+from cscanmaker.generate_measure_data import PogoData, PogoDataReader
 
 
 class CScanGenerator:

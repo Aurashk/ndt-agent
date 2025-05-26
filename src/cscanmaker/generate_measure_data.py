@@ -4,8 +4,7 @@ Data structures and synthetic data generation for ultrasonic NDT measurements
 
 import numpy as np
 from dataclasses import dataclass
-from typing import List, Any, Optional
-
+from typing import List, Any
 
 @dataclass
 class PogoMetadata:
