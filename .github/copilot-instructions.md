@@ -2,7 +2,7 @@
 
 This project post-processes ultrasonic non-destructive testing (NDT) measurement data to generate C-scan data.
 
-- For every contribution you should create your own branch from `main` and submit a pull request with a clear description of the changes.
+- For every contribution you should create your own branch from `main` and submit a pull request with a clear description of the changes. Run and test in your environment first.
     
 - For coding standards and styling, refer to [docs/codingstyle.md](../docs/codingstyle.md).
 
@@ -14,6 +14,6 @@ All new functions need corresponding pytest tests in the tests/ directory.
 
 - Follow the established pattern for file naming and organisation: test files use `test_*.py`, debug images get auto-incremented names like `001_signal_analysis.png`, and documentation goes in the `docs/` directory with descriptive names.
 
-- Check requirements.txt for dependencies.
+- Check requirements.txt for dependencies. If you add or remove a new you should run pip freeze > requirements.txt to update it.
 
 - When creating or updating documentation, reference the existing comprehensive docs in README.md, codingstyle.md, debugging.md, testing.md. Keep examples practical and related to ultrasonic NDT applications like flaw detection and material characterization.
