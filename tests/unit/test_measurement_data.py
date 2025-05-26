@@ -9,9 +9,7 @@ import pytest
 import numpy as np
 from cscanmaker.generate_measure_data import (
     MeasurementPoint,
-    MeasurementSet,
     PogoData,
-    PogoMetadata,
     SyntheticDataGenerator,
     PogoDataReader
 )
