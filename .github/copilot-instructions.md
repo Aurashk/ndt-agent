@@ -14,6 +14,6 @@ All new functions need corresponding pytest tests in the tests/ directory.
 
 - Follow the established pattern for file naming and organisation: test files use `test_*.py`, debug images get auto-incremented names like `001_signal_analysis.png`, and documentation goes in the `docs/` directory with descriptive names.
 
-- Check requirements.txt for dependencies. If you add or remove a new you should run pip freeze > requirements.txt to update it.
+- Check requirements.txt for dependencies. If you add or remove a new you should run `pip freeze | findstr /V "cscanmaker" > requirements.txt` to update it.
 
 - When creating or updating documentation, reference the existing comprehensive docs in README.md, codingstyle.md, debugging.md, testing.md. Keep examples practical and related to ultrasonic NDT applications like flaw detection and material characterization.
